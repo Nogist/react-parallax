@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Parallax pages={2} style={{ top: '10', left: '10' }} class="animation">
         <ParallaxLayer offset={0} speed={0.25}>
-          <div class="animation_layer parallax" id="artback">HELLO</div>
+          <div class="animation_layer parallax" id="artback"></div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.3}>
           <div class="animation_layer parallax" id="mountain"></div>
